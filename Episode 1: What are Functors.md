@@ -4,7 +4,7 @@ The short but maybe not so helpful description of Functors is that they are enha
 
 ## Pure
 
-Lifting values is done with a type constructor (indicated by the `new` keyword in javascript)  or the function pure sometimes called return (not existing in JavaScript). This operation changes a values type, lifting it into the given Functor. In javascript, one of the type constructors you have probably already used is the list literal `[]`. Writing `[1]` lifts `1` from the type `Number` to the type `Array` of `Number`.
+Lifting values is done with a constructor (indicated by the `new` keyword in javascript)  or the function pure sometimes called return (not existing in JavaScript). This operation changes a values type, lifting it into the given Functor. In javascript, one of the constructors you have probably already used is the list literal `[]`. Writing `[1]` lifts `1` from the type `Number` to the type `Array` of `Number`.
 
 If pure was defined for Array it would look like this:
 
